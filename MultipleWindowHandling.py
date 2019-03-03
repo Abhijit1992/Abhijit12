@@ -18,5 +18,5 @@ for id in mul_win_id:
     if (win_id !=id):
         driver.switch_to.window(id)
         driver.find_element_by_id("inputEmail").send_keys("testt")
-#driver.close()
-#driver.quit()
+driver.close()
+driver.quit()
